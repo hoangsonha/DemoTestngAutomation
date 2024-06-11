@@ -32,7 +32,6 @@ public class UserNGTest {
     
     @Test
     public void testLoginWithUserAndPasswordIsCorrect() {
-        
        driver.findElement(By.linkText("Login")).click();
        driver.findElement(By.id("email")).sendKeys("hoangsonha492@gmail.com");
        driver.findElement(By.id("password")).sendKeys("1"); 

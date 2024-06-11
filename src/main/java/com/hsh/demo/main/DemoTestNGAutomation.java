@@ -11,6 +11,6 @@ package com.hsh.demo.main;
 public class DemoTestNGAutomation {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }
