@@ -8,7 +8,7 @@
 
 #### Step 1 : File -> New Project -> Choose Java with Maven -> Java Application -> Fill some infor such as : Name, Version, Location, ...
 
-#### Step 2 : Import Dependances in Maven Repo, include testng (to use testNG), selenium (to test and demo the action of user in Web Browser), webdrivermanager (to manager driver such as chromedriver) in file porm.xml
+#### Step 2 : Import Dependances in Maven Repo, include testng (to use testNG), selenium (to test and demo the action of user in Web Browser), webdrivermanager (to manager driver such as chromedriver) in file pom.xml
 
 #### Step 3 : Create testNG by right-click on your project and click New -> Other -> Choose Unit Tests -> TestNG Test Case
 
@@ -16,6 +16,8 @@
 
 
 ## Screenshots
+
+### Login when email and password is correct
 
 ![Source code and test script](https://github.com/hoangsonha/DemoTestngAutomation/blob/main/screenshots/testLoginWithEmailAndPassCorrect.png)
 
