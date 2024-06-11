@@ -30,11 +30,11 @@
             <version>5.8.0</version>
         </dependency>
         
-        <dependency>
+<!--        <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>browserstack-java-sdk</artifactId>
             <version>1.17.0</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
     
     <properties>

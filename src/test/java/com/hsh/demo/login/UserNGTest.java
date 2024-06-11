@@ -31,7 +31,7 @@ public class UserNGTest {
     }
     
     @Test
-    public void testTableSortAndSearch() {
+    public void testLoginWithUserAndPasswordIsCorrect() {
         
        driver.findElement(By.linkText("Login")).click();
        driver.findElement(By.id("email")).sendKeys("hoangsonha492@gmail.com");
