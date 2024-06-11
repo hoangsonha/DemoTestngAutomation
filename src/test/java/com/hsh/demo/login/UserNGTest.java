@@ -27,7 +27,7 @@ public class UserNGTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://testngautomation.azurewebsites.net/");
+        driver.get("http://localhost:8080/");
     }
     
     @Test
@@ -37,13 +37,35 @@ public class UserNGTest {
        driver.findElement(By.id("password")).sendKeys("1"); 
        driver.findElement(By.id("b_submit")).click();   
        String actualValue = driver.findElement(By.id("message")).getText();    
-       String expectedValue = "Login Successfully !!!";      
+       String expectedValue = "Login Successfully !!!";    
        Assert.assertEquals(actualValue, expectedValue);
+    }
+    
+    @Test
+    public void testLoginWithUserAndPasswordNotCorrect() {
+       driver.findElement(By.linkText("Login")).click();
+       driver.findElement(By.id("email")).sendKeys("hoangsonha492@gmail.com");
+       driver.findElement(By.id("password")).sendKeys("123"); 
+       driver.findElement(By.id("b_submit")).click();   
+       String actualValue = driver.findElement(By.id("message")).getText();    
+       String expectedValue = "Login Successfully !!!";      
+       Assert.assertNotEquals(actualValue, expectedValue);
+    }
+    
+     @Test
+    public void testLoginWithUserNotCorrectAndPasswordNotCorrect() {
+       driver.findElement(By.linkText("Login")).click();
+       driver.findElement(By.id("email")).sendKeys("hoangsonha492fdasdsa@gmail.com");
+       driver.findElement(By.id("password")).sendKeys("123"); 
+       driver.findElement(By.id("b_submit")).click();   
+       String actualValue = driver.findElement(By.id("message")).getText();    
+       String expectedValue = "Login Successfully !!!";      
+       Assert.assertNotEquals(actualValue, expectedValue);
     }
     
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
     }
     
 }
