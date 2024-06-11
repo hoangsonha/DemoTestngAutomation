@@ -37,7 +37,7 @@ public class UserNGTest {
        driver.findElement(By.id("password")).sendKeys("1"); 
        driver.findElement(By.id("b_submit")).click();   
        String actualValue = driver.findElement(By.id("message")).getText();    
-       String expectedValue = "Login Successfully !!!";    
+       String expectedValue = "Login Successfully!!!";    
        Assert.assertEquals(actualValue, expectedValue);
     }
     
@@ -48,7 +48,7 @@ public class UserNGTest {
        driver.findElement(By.id("password")).sendKeys("123"); 
        driver.findElement(By.id("b_submit")).click();   
        String actualValue = driver.findElement(By.id("message")).getText();    
-       String expectedValue = "Login Successfully !!!";      
+       String expectedValue = "Login Successfully!!!";      
        Assert.assertNotEquals(actualValue, expectedValue);
     }
     
@@ -59,13 +59,13 @@ public class UserNGTest {
        driver.findElement(By.id("password")).sendKeys("123"); 
        driver.findElement(By.id("b_submit")).click();   
        String actualValue = driver.findElement(By.id("message")).getText();    
-       String expectedValue = "Login Successfully !!!";      
+       String expectedValue = "Login Successfully!!!";      
        Assert.assertNotEquals(actualValue, expectedValue);
     }
     
     @AfterMethod
     public void tearDown() {
-//        driver.quit();
+        driver.quit();
     }
     
 }
