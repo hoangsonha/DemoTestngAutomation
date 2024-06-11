@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/hoangsonha/DemoTestngAutomation/actions/workflows/maven.yml/badge.svg)](https://github.com/hoangsonha/DemoTestngAutomation/actions/workflows/maven.yml)
+
 # Welcome to testNG Repository
 
 ## User Guides
