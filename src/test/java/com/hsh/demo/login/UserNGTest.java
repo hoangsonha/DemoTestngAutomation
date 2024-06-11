@@ -21,6 +21,7 @@ public class UserNGTest {
     
     WebDriver driver;
     
+    
     @BeforeMethod
     public void setUp() {
         // driverManager quản lí driver của chúng ta (trong th này là chromedriver())
