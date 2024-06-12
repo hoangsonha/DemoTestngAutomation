@@ -66,7 +66,7 @@ public class UserNGTest {
     
     @AfterMethod
     public void tearDown() {
- //       driver.quit();
+        driver.quit();
     }
     
 }
