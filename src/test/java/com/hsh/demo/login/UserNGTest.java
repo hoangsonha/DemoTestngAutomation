@@ -28,7 +28,7 @@ public class UserNGTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://localhost:8080/");
+        driver.get("https://testngautomation.azurewebsites.net/");
     }
     
     @Test
@@ -66,7 +66,7 @@ public class UserNGTest {
     
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+ //       driver.quit();
     }
     
 }
