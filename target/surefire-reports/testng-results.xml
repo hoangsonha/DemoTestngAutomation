@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-12T12:39:50 ICT" name="Surefire suite" finished-at="2024-06-12T12:40:02 ICT" duration-ms="11507">
+  <suite started-at="2024-06-12T15:01:14 ICT" name="Surefire suite" finished-at="2024-06-12T15:02:13 ICT" duration-ms="59238">
     <groups>
     </groups>
-    <test started-at="2024-06-12T12:39:50 ICT" name="Surefire test" finished-at="2024-06-12T12:40:02 ICT" duration-ms="11507">
+    <test started-at="2024-06-12T15:01:14 ICT" name="Surefire test" finished-at="2024-06-12T15:02:13 ICT" duration-ms="59238">
       <class name="com.hsh.demo.login.UserNGTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:50 ICT" name="setUp" finished-at="2024-06-12T12:39:53 ICT" duration-ms="2501" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:01:14 ICT" name="setUp" finished-at="2024-06-12T15:01:59 ICT" duration-ms="44672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithUserAndPasswordIsCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:53 ICT" name="testLoginWithUserAndPasswordIsCorrect" finished-at="2024-06-12T12:39:54 ICT" duration-ms="1635" status="PASS">
+        <test-method signature="testLoginWithUserAndPasswordIsCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:01:59 ICT" name="testLoginWithUserAndPasswordIsCorrect" finished-at="2024-06-12T15:02:02 ICT" duration-ms="3483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithUserAndPasswordIsCorrect -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:54 ICT" name="tearDown" finished-at="2024-06-12T12:39:54 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:02 ICT" name="tearDown" finished-at="2024-06-12T15:02:03 ICT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:54 ICT" name="setUp" finished-at="2024-06-12T12:39:56 ICT" duration-ms="2017" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:03 ICT" name="setUp" finished-at="2024-06-12T15:02:05 ICT" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithUserAndPasswordNotCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:56 ICT" name="testLoginWithUserAndPasswordNotCorrect" finished-at="2024-06-12T12:39:58 ICT" duration-ms="1610" status="PASS">
+        <test-method signature="testLoginWithUserAndPasswordNotCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:05 ICT" name="testLoginWithUserAndPasswordNotCorrect" finished-at="2024-06-12T15:02:08 ICT" duration-ms="2547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithUserAndPasswordNotCorrect -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:58 ICT" name="tearDown" finished-at="2024-06-12T12:39:58 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:08 ICT" name="tearDown" finished-at="2024-06-12T15:02:08 ICT" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:39:58 ICT" name="setUp" finished-at="2024-06-12T12:40:00 ICT" duration-ms="2065" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:08 ICT" name="setUp" finished-at="2024-06-12T15:02:10 ICT" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithUserNotCorrectAndPasswordNotCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:40:00 ICT" name="testLoginWithUserNotCorrectAndPasswordNotCorrect" finished-at="2024-06-12T12:40:02 ICT" duration-ms="1652" status="PASS">
+        <test-method signature="testLoginWithUserNotCorrectAndPasswordNotCorrect()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:10 ICT" name="testLoginWithUserNotCorrectAndPasswordNotCorrect" finished-at="2024-06-12T15:02:13 ICT" duration-ms="2963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithUserNotCorrectAndPasswordNotCorrect -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T12:40:02 ICT" name="tearDown" finished-at="2024-06-12T12:40:02 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hsh.demo.login.UserNGTest@5143c662]" started-at="2024-06-12T15:02:13 ICT" name="tearDown" finished-at="2024-06-12T15:02:13 ICT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
