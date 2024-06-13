@@ -25,6 +25,8 @@ public class UserNGTest {
     @BeforeMethod
     public void setUp() {
         // driverManager quản lí driver của chúng ta (trong th này là chromedriver())
+        WebDriverManager.chromedriver().clearDriverCache().setup();
+        WebDriverManager.chromedriver().clearResolutionCache().setup();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
