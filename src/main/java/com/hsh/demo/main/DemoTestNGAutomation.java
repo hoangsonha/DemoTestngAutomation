@@ -4,13 +4,14 @@
 
 package com.hsh.demo.main;
 
+
 /**
  *
  * @author ADMIN
  */
 public class DemoTestNGAutomation {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         
     }
 }
