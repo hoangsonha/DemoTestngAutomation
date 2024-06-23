@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTestNGAutomation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.921">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testOrderSaveInDB"
+                time="26.921"
+                classname="com.hsh.demo.test.UserNGTest">
+            </testcase>
+</testsuite>

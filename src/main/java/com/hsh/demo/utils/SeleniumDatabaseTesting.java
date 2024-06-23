@@ -12,11 +12,11 @@ import java.sql.DriverManager;
  * @author ADMIN
  */
 public class SeleniumDatabaseTesting {
-    public static String DB_URL = "jdbc:mysql://localhost:3306/web_ban_hang";
+    public static String DB_URL = "jdbc:mysql://diamondshop.mysql.database.azure.com/web_ban_hang";
 
-    public static String DB_USER = "root";
+    public static String DB_USER = "diamondshop";
 
-    public static String DB_PASSWORD = "123456789";
+    public static String DB_PASSWORD = "Group6123456789";
     
     public static Connection getCOnnection() throws Exception {
         Connection conn = null;

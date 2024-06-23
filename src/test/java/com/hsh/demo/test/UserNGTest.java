@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/EmptyTestNGTest.java to edit this template
  */
-package com.hsh.demo.login;
+package com.hsh.demo.test;
 
 import com.hsh.demo.utils.SeleniumDatabaseTesting;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -35,7 +35,7 @@ public class UserNGTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.get("http://localhost:8080/");
+        driver.get("https://testngautomation.azurewebsites.net/");
     }
 
     @Test
@@ -181,8 +181,11 @@ public class UserNGTest {
         int max = getMaxIdBill();
         
         Thread.sleep(5000);
-
-        driver.findElement(By.id("submit_bill")).click();
+        
+        WebElement web = driver.findElement(By.id("submit_bill"));
+        Actions action = new Actions(driver);
+        action.moveToElement(web).click().perform();
+        
         
         int bill_id = getIdBillSuccess("hcm", "hoangsonha@gmail.com", "hoangsonha", "giao hang nhanh", "0334386995", max);
  
