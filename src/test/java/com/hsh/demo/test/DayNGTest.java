@@ -59,29 +59,29 @@ public class DayNGTest {
         assertEquals(actualValue, expectedValue);
     }
     
-//    @Test
-//    public void TestCountDayInYearInPutYearNotValidAndReturnWell() {
-//        
-//        assertThrows(IllegalArgumentException.class, () -> {
-//                    Function.countDayInYear(-2024, 5, 15);
-//                } );
-//    }
-//    
-//    @Test
-//    public void TestCountDayInYearInPutMonthNotValidAndReturnWell() {
-//        
-//        assertThrows(IllegalArgumentException.class, () -> {
-//                    Function.countDayInYear(2024, -5, 15);
-//                } );
-//    }
-//    
-//    @Test
-//    public void TestCountDayInYearInPutDayNotValidAndReturnWell() {
-//        
-//        assertThrows(IllegalArgumentException.class, () -> {
-//                    Function.countDayInYear(2024, 5, -15);
-//                } );
-//    }
+    @Test
+    public void TestCountDayInYearInPutYearNotValidAndReturnWell() {
+
+        assertThrows(IllegalArgumentException.class, () -> {
+                    Function.countDayInYear(-2024, 5, 15);
+                } );
+    }
+
+    @Test
+    public void TestCountDayInYearInPutMonthNotValidAndReturnWell() {
+
+        assertThrows(IllegalArgumentException.class, () -> {
+                    Function.countDayInYear(2024, -5, 15);
+                } );
+    }
+
+    @Test
+    public void TestCountDayInYearInPutDayNotValidAndReturnWell() {
+
+        assertThrows(IllegalArgumentException.class, () -> {
+                    Function.countDayInYear(2024, 5, -15);
+                } );
+    }
     
     
 }

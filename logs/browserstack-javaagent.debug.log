@@ -133,3 +133,108 @@
 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
 
+20:03:10.778 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:03:10.781 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:03:10.960 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:03:10.961 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:03:10.961 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:03:10.961 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:18:58.490 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:18:58.494 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:18:58.685 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:18:58.686 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:18:58.686 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:18:58.687 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:20:39.635 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:20:39.637 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:20:39.792 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:20:39.793 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:20:39.793 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:20:39.794 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:22:35.675 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:22:35.678 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:22:35.863 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:22:35.865 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:22:35.865 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:22:35.866 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:24:07.844 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:24:07.846 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:24:07.997 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:24:07.998 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:24:07.998 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:24:07.999 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:27:36.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:27:36.683 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:27:36.835 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:27:36.836 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:27:36.836 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:27:36.837 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+20:28:29.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+20:28:29.367 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:28:29.512 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+20:28:29.513 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\browserstack.yml
+20:28:29.514 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+20:28:29.514 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of D:\WorkSpaces\Testing\DemoTestNGAutomation. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
