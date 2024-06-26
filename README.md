@@ -16,9 +16,15 @@
 
 ## Main function
 
-- Test login with 4 test case for login success or fail
-- Test register with 7 test case for register success or fail
-- Test CRUD cart
+#### Unit test
+- Test function calculate the amount of day in year, input is today with 6 test case and return well
+
+#### Test automation
+- Test login with 3 test case for user login with their role success or fail
+- Test add cart with 1 test case for user add 1 product into cart success
+- Test add cart with 1 test case for user add multiple products into cart success
+- Test update quantity product in cart with 1 test case for user update quantity product in cart success
+- Test delete cart with 1 test case for user delete 1 product in cart success
 - Test search with 2 test case for search success or fail
 - Test create order when user create order success or fail
 
