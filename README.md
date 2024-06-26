@@ -18,10 +18,10 @@
 
 ## Main function
 
-#### Unit test
+### Unit test
 - Test function calculate the amount of day in year, input is today with 6 test case and return well
 
-#### Test automation
+### Test automation
 - Test login with 3 test case for user login with their role success or fail
 - Test add cart with 1 test case for user add 1 product into cart success
 - Test add cart with 1 test case for user add multiple products into cart success
