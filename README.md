@@ -14,6 +14,13 @@
 
 #### Step 4 : Add anotation @Test above method you want to test. In method, you can test some method in src of your project and this method will send you neither red or green when you run this method which contains @Test at the top
 
+## Main function
+
+- Test login with 4 test case for login success or fail
+- Test register with 7 test case for register success or fail
+- Test CRUD cart
+- Test search with 2 test case for search success or fail
+- Test create order when user create order success or fail
 
 ## Screenshots
 
